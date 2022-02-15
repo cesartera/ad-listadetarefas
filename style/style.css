@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@400;700&display=swap');
+
+/* Cores:
+
+#0CCBDE - FUNDO
+#F6F6F9 - DESTAQUE*/
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    width: 300px;
+    margin: 0 550px;
+}
+
+header img {
+    width: 70px;
+    height: auto;
+    float: left;
+}
+
+header h1{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+nav{
+    width: 300px;
+    margin: 0 550px;
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a{
+    color: #000;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.active{
+    border-bottom: 1px solid #0CCBDE;
+}
+
+main{
+    width: 750px;
+    margin: 40px 370px;
+}
+
+hr{
+    margin: 30px;
+    border: 1px solid #F6F6F9;
+}
+
+section{
+    width: 500px;
+    height: 120px;
+    margin: 0 100px;
+    background-color: #F6F6F9;
+    border-radius: 20px; 
+}
+
+section h2{
+    font-size: 19px;
+    padding: 10px 20px;
+    display: block;
+}
+
+#inputNovaTarefa{
+    font-family: 'Lato', sans-serif;
+    margin: 5px 20px 30px 20px;
+    padding: 0 10px;
+    height: 25px;
+    width: 375px;
+    border: 1px solid #0CCBDE;
+    border-radius: 5px;
+}
+
+#btnNovaTarefa {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0CCBDE;
+    color: #fff;
+}
+
+#btnNovaTarefa:hover {
+    transform: scale(1.1);
+}
+
+#minhasTarefas{
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#minhasTarefas ul{
+    padding: 0;
+    margin: 0;
+}
+
+#minhasTarefas li{
+    background-color: #fff;
+    /* border: 1px solid red; */
+    list-style: none;
+    padding: 20px 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+#minhasTarefas li:hover{
+    background-color: #0CCBDE;
+    color: #fff;
+}
+
+.btnDelete{
+    width: 20px;
+    height: auto;
+    float: right;
+    margin: 0 20px;
+}
+
+.btnDelete:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* .row{
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+}
+
+.col-left{
+    border: 1px solid red;
+    width: 80%;
+    height: 40px;
+    float: left;
+}
+
+.col-right{
+    border: 1px solid blue;
+    width: 15%;
+    height: 40px;
+    float: right;
+} */
+
+
+
+/* 
+.liText{
+    border: 1px solid red;
+    width: 80%;
+} */
+/* 
+.liBtnDelete{
+    border: 1px solid blue;
+    width: 15%;
+    float: right;
+} */
+
+/* .btnDelete{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #000;
+} */
+
+/* .btnDelete img{
+    width: 50%;
+    height: auto;
+} */
+
+
+
+

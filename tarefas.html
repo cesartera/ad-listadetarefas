@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Lista de Tarefas | Lista</title>
+</head>
+<body>
+        <!-- PARTE 1 -->
+        <header>
+            <img src="imagens/logo.svg" width="70px" height="auto" alt="">
+            <h1>Lista de Tarefas</h1>
+        </header>
+    
+        <!-- PARTE 2 -->
+        <nav>
+            <a href="index.html">Instruções</a>
+            <a href="tarefas.html">Tarefas</a>
+        </nav>
+
+    <main>
+        <section id="novaTarefa">
+            <h2>Nova Tarefa</h2>
+        
+            <label for="novaTarefa"></label>
+            <input id="inputNovaTarefa"  type="text" placeholder="✍🏻 Escreva sua tarefa aqui...">
+            <input id="btnNovaTarefa" type="submit" value="+" onclick="addTarefa()">
+
+        </section>
+        <hr>
+        <section id="minhasTarefas"> 
+            <h2>Minhas Tarefas</h2>
+
+            <ul id="ulTarefas">
+                <!-- <li>Tarefa 1 <img class="btnDelete" src="imagens/lixeira-icone.png" width="20px" height="auto" alt=""></li> -->
+            </ul>
+        </section>
+
+    </main>
+
+<script src="app/app.js"></script>
+</body>
+</html>
